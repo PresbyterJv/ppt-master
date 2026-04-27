@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Ending Page — Terraria Pixel Forest Theme -->
+
+  <!-- Background fallback -->
+  <rect width="1280" height="720" fill="#5578B4"/>
+
+  <!-- Forest background: deciduous trees (bright, warm daytime feel) -->
+  <image href="forest_bg2.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMin slice"/>
+
+  <!-- Light overlay: keeps the bright outdoor feel, just enough contrast for text -->
+  <rect x="0" y="0" width="1280" height="720" fill="#0B1E08" fill-opacity="0.30"/>
+
+  <!-- ===== CENTRAL CLOSING PANEL ===== -->
+  <g>
+    <!-- Outer dark border -->
+    <rect x="185" y="172" width="910" height="360" fill="#1A0D00"/>
+    <!-- Inner wooden panel fill -->
+    <rect x="193" y="180" width="894" height="344" fill="#5C3A1E"/>
+    <!-- Top highlight strip -->
+    <rect x="193" y="180" width="894" height="14" fill="#8C5A32"/>
+    <!-- Left highlight strip -->
+    <rect x="193" y="180" width="14" height="344" fill="#7A4A28"/>
+    <!-- Bottom shadow strip -->
+    <rect x="193" y="510" width="894" height="14" fill="#3A1E08"/>
+    <!-- Right shadow strip -->
+    <rect x="1073" y="180" width="14" height="344" fill="#3A1E08"/>
+
+    <!-- Gold corner pixels -->
+    <rect x="197" y="184" width="16" height="16" fill="#FFD700"/>
+    <rect x="1067" y="184" width="16" height="16" fill="#FFD700"/>
+    <rect x="197" y="508" width="16" height="16" fill="#FFD700"/>
+    <rect x="1067" y="508" width="16" height="16" fill="#FFD700"/>
+
+    <!-- Inner gold top rule -->
+    <rect x="215" y="200" width="850" height="2" fill="#FFD700" fill-opacity="0.35"/>
+
+    <!-- Thank-you main text -->
+    <text x="640" y="306" text-anchor="middle" font-family="Courier New, Consolas, Monaco, monospace" font-size="56" font-weight="bold" fill="#FFD700">{{THANK_YOU}}</text>
+
+    <!-- Ending subtitle -->
+    <text x="640" y="374" text-anchor="middle" font-family="Courier New, Consolas, Monaco, monospace" font-size="25" fill="#F0E0C0">{{ENDING_SUBTITLE}}</text>
+
+    <!-- Divider with pixel dots -->
+    <rect x="270" y="400" width="740" height="4" fill="#FFD700" fill-opacity="0.50"/>
+    <rect x="265" y="396" width="12" height="12" fill="#FFD700" fill-opacity="0.65"/>
+    <rect x="1003" y="396" width="12" height="12" fill="#FFD700" fill-opacity="0.65"/>
+
+    <!-- Contact info -->
+    <text x="640" y="452" text-anchor="middle" font-family="Microsoft YaHei, Segoe UI, Arial, sans-serif" font-size="20" fill="#C8D8B8">{{CONTACT_INFO}}</text>
+  </g>
+
+  <!-- ===== BOTTOM DECORATION AREA ===== -->
+  <!-- Dark ground strip -->
+  <rect x="0" y="616" width="1280" height="104" fill="#071507" fill-opacity="0.82"/>
+  <!-- Grass border -->
+  <rect x="0" y="616" width="1280" height="9" fill="#3EAA4A"/>
+  <rect x="0" y="625" width="1280" height="5" fill="#2D6B34"/>
+
+  <!-- Slime decorations across the bottom -->
+  <image href="green_slime.png" x="80" y="638" width="64" height="54" preserveAspectRatio="xMidYMid meet"/>
+  <image href="green_slime.png" x="200" y="644" width="52" height="44" preserveAspectRatio="xMidYMid meet"/>
+  <image href="green_slime.png" x="964" y="644" width="52" height="44" preserveAspectRatio="xMidYMid meet"/>
+  <image href="green_slime.png" x="1136" y="638" width="64" height="54" preserveAspectRatio="xMidYMid meet"/>
+
+  <!-- Boulder decorations -->
+  <image href="boulder.png" x="30" y="640" width="52" height="48" preserveAspectRatio="xMidYMid meet"/>
+  <image href="boulder.png" x="1198" y="640" width="52" height="48" preserveAspectRatio="xMidYMid meet"/>
+
+  <!-- Copyright / page number -->
+  <text x="640" y="704" text-anchor="middle" font-family="Courier New, Consolas, monospace" font-size="17" fill="#5A9040">{{COPYRIGHT}}</text>
+
+  <!-- Ground tile strip at very bottom -->
+  <rect x="0" y="706" width="1280" height="14" fill="#3A2010"/>
+  <rect x="0" y="706" width="1280" height="5" fill="#3EAA4A"/>
+</svg>
