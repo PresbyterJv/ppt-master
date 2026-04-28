@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <pattern id="dp_end" x="380" y="16" width="110" height="88" patternUnits="userSpaceOnUse">
+      <polygon points="0,32 12,0 102,0 90,32" fill="#CC4500" fill-opacity="0.85"/>
+      <polygon points="55,76 67,44 157,44 145,76" fill="#CC4500" fill-opacity="0.65"/>
+      <polygon points="-55,76 -43,44 47,44 35,76" fill="#CC4500" fill-opacity="0.65"/>
+    </pattern>
+    <linearGradient id="end_fade" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#C8161D"/>
+      <stop offset="100%" stop-color="#C8161D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full red background -->
+  <rect width="1280" height="720" fill="#C8161D"/>
+
+  <!-- Diamond pattern (right 70%) -->
+  <rect x="380" y="0" width="900" height="720" fill="url(#dp_end)"/>
+
+  <!-- Fade at left edge -->
+  <rect x="380" y="0" width="180" height="720" fill="url(#end_fade)"/>
+
+  <!-- Dark bottom bar -->
+  <rect x="0" y="638" width="1280" height="82" fill="#9B1019" fill-opacity="0.55"/>
+
+  <!-- Thin accent lines (centered) -->
+  <line x1="480" y1="310" x2="800" y2="310" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.3"/>
+  <line x1="480" y1="420" x2="800" y2="420" stroke="#FFFFFF" stroke-width="1.5" stroke-opacity="0.3"/>
+
+  <!-- Thank You text (centered) -->
+  <text x="640" y="376" text-anchor="middle" fill="#FFFFFF"
+        font-family="Microsoft YaHei, PingFang SC, Helvetica Neue, Arial, sans-serif"
+        font-size="54" font-weight="700" letter-spacing="8">{{THANK_YOU}}</text>
+
+  <!-- Contact info -->
+  <text x="640" y="452" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.82"
+        font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif"
+        font-size="18">{{CONTACT_INFO}}</text>
+
+  <!-- CETC logo image -->
+  <image href="cetc_logo.png" x="60" y="645" width="110" height="45" preserveAspectRatio="xMidYMid meet"/>
+  <line x1="180" y1="651" x2="180" y2="675" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="190" y="669" fill="#FFFFFF" fill-opacity="0.72"
+        font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12">
+    以人为本  |  聚焦市场  |  持续改革  |  创新驱动  |  简单务实
+  </text>
+</svg>

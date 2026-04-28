@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <!-- Diamond pattern for header strip -->
+    <pattern id="dp_content" x="720" y="0" width="110" height="88" patternUnits="userSpaceOnUse">
+      <polygon points="0,32 12,0 102,0 90,32" fill="#CC4500" fill-opacity="0.85"/>
+      <polygon points="55,76 67,44 157,44 145,76" fill="#CC4500" fill-opacity="0.65"/>
+      <polygon points="-55,76 -43,44 47,44 35,76" fill="#CC4500" fill-opacity="0.65"/>
+    </pattern>
+    <linearGradient id="content_hdr_fade" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#C8161D"/>
+      <stop offset="100%" stop-color="#C8161D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- White background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+
+  <!-- Header strip -->
+  <rect x="0" y="0" width="1280" height="72" fill="#C8161D"/>
+
+  <!-- Diamond pattern in header (right portion) -->
+  <rect x="720" y="0" width="560" height="72" fill="url(#dp_content)"/>
+
+  <!-- Fade at left edge of header pattern -->
+  <rect x="720" y="0" width="120" height="72" fill="url(#content_hdr_fade)"/>
+
+  <!-- CETC logo image in header (right-aligned) -->
+  <image href="cetc_logo.png" x="1118" y="16" width="98" height="40" preserveAspectRatio="xMidYMid meet"/>
+
+  <!-- Header: page title label (left) -->
+  <text x="64" y="44" fill="#FFFFFF"
+        font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif"
+        font-size="16" font-weight="700">{{PAGE_TITLE}}</text>
+
+  <!-- Left accent bar for page title area -->
+  <rect x="64" y="84" width="4" height="30" fill="#C8161D"/>
+
+  <!-- Page title (below header) -->
+  <text x="80" y="106" fill="#1A1A1A"
+        font-family="Microsoft YaHei, PingFang SC, Helvetica Neue, Arial, sans-serif"
+        font-size="26" font-weight="700">{{PAGE_TITLE}}</text>
+
+  <!-- Divider line below title -->
+  <line x1="64" y1="120" x2="1216" y2="120" stroke="#E8E8E8" stroke-width="1"/>
+
+  <!-- Content area placeholder -->
+  <text x="640" y="420" text-anchor="middle" fill="#CCCCCC"
+        font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif"
+        font-size="18">{{CONTENT_AREA}}</text>
+
+  <!-- Footer bar -->
+  <rect x="0" y="704" width="1060" height="16" fill="#C8161D"/>
+  <rect x="1060" y="704" width="220" height="16" fill="#595959"/>
+
+  <!-- Page number -->
+  <text x="1150" y="716" text-anchor="middle" fill="#FFFFFF"
+        font-family="Arial, sans-serif" font-size="12">{{PAGE_NUM}}</text>
+</svg>

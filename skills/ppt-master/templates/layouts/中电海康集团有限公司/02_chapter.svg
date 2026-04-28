@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <pattern id="dp_chap" x="480" y="0" width="110" height="88" patternUnits="userSpaceOnUse">
+      <polygon points="0,32 12,0 102,0 90,32" fill="#CC4500" fill-opacity="0.85"/>
+      <polygon points="55,76 67,44 157,44 145,76" fill="#CC4500" fill-opacity="0.65"/>
+      <polygon points="-55,76 -43,44 47,44 35,76" fill="#CC4500" fill-opacity="0.65"/>
+    </pattern>
+    <linearGradient id="chap_fade" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#C8161D"/>
+      <stop offset="100%" stop-color="#C8161D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Full red background -->
+  <rect width="1280" height="720" fill="#C8161D"/>
+
+  <!-- Diamond pattern (right 62% of slide) -->
+  <rect x="480" y="0" width="800" height="720" fill="url(#dp_chap)"/>
+
+  <!-- Fade gradient at left edge of pattern -->
+  <rect x="480" y="0" width="160" height="720" fill="url(#chap_fade)"/>
+
+  <!-- Subtle dark overlay bottom strip -->
+  <rect x="0" y="660" width="1280" height="60" fill="#9B1019" fill-opacity="0.4"/>
+
+  <!-- Chapter number (large display, bottom-left anchor) -->
+  <text x="64" y="600" fill="#FFFFFF" fill-opacity="0.15"
+        font-family="Arial, Helvetica Neue, sans-serif"
+        font-size="380" font-weight="700">{{CHAPTER_NUM}}</text>
+
+  <!-- Foreground chapter number -->
+  <text x="64" y="530" fill="#FFFFFF" fill-opacity="0.22"
+        font-family="Arial, Helvetica Neue, sans-serif"
+        font-size="280" font-weight="700">{{CHAPTER_NUM}}</text>
+
+  <!-- Accent vertical bar -->
+  <rect x="64" y="276" width="6" height="168" fill="#FFFFFF" fill-opacity="0.85"/>
+
+  <!-- Chapter label -->
+  <text x="84" y="310" fill="#FFFFFF" fill-opacity="0.72"
+        font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif"
+        font-size="14" letter-spacing="4">CHAPTER {{CHAPTER_NUM}}</text>
+
+  <!-- Chapter title -->
+  <text x="84" y="370" fill="#FFFFFF"
+        font-family="Microsoft YaHei, PingFang SC, Helvetica Neue, Arial, sans-serif"
+        font-size="40" font-weight="700">{{CHAPTER_TITLE}}</text>
+
+  <!-- Subtitle / description line (optional) -->
+  <text x="84" y="416" fill="#FFFFFF" fill-opacity="0.75"
+        font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif"
+        font-size="18">{{SUBTITLE}}</text>
+
+  <!-- CETC logo image -->
+  <image href="cetc_logo.png" x="60" y="660" width="110" height="45" preserveAspectRatio="xMidYMid meet"/>
+</svg>
