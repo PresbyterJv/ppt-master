@@ -103,5 +103,10 @@
     "label": "Chongqing University Template",
     "summary": "A university-exclusive template for academic defenses and research presentations",
     "keywords": ["Chongqing University", "Academic", "Defense", "University"]
+  },
+  "lab_report_blue": {
+    "label": "实验室蓝白汇报",
+    "summary": "A restrained blue-white template for formal quarterly reports, project reviews, and technical briefings in serious meeting settings",
+    "keywords": ["Lab report", "Blue-white", "Quarterly review", "Formal", "Minimal decoration", "Serious meeting"]
   }
 }

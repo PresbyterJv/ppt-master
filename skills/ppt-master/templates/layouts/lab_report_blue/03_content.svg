@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <rect x="0" y="0" width="1280" height="4" fill="#3f629f"/>
+
+  <g id="header">
+    <text x="68" y="48" font-size="33" font-weight="bold" fill="#2f5597" font-family="Microsoft YaHei, SimHei, sans-serif">{{PAGE_TITLE}}</text>
+  </g>
+
+  <rect x="68" y="60" width="1144" height="3" rx="1" fill="#3f629f"/>
+
+  <g id="content-area">
+    <rect x="68" y="78" width="1144" height="530" fill="none" stroke="#d6e4f0" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="640" y="350" text-anchor="middle" font-size="20" fill="#d6e4f0" font-family="Microsoft YaHei, SimHei, sans-serif">{{CONTENT_AREA}}</text>
+  </g>
+
+  <g id="footer">
+    <rect x="0" y="654" width="1280" height="66" fill="#3f629f"/>
+    <text x="640" y="694" text-anchor="middle" font-size="24" font-weight="bold" fill="#FFFFFF" font-family="Microsoft YaHei, SimHei, sans-serif">{{KEY_MESSAGE}}</text>
+  </g>
+
+  <text x="1232" y="655" text-anchor="end" font-size="16" font-weight="bold" fill="#ffc000" font-family="DengXian, Arial, sans-serif">{{PAGE_NUM}}</text>
+</svg>

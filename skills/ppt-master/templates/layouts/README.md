@@ -1,4 +1,4 @@
-# Page Layout Template Library (21 Templates)
+# Page Layout Template Library (22 Templates)
 
 Pre-built PPT page layout templates supporting multiple styles and use cases.
 
@@ -34,6 +34,7 @@ Pre-built PPT page layout templates supporting multiple styles and use cases.
 | `科技蓝商务` | General | Corporate reports, product launches, proposals | Tech Blue `#0078D7` | Tech, business, professional, clean |
 | `smart_red` | General | Tech company profiles, education solutions | Smart Red-Orange `#DE3545` | Modern, vibrant, geometric |
 | `重庆大学` | Scenario | Academic defense, research presentations | CQU Blue `#006BB7` | Academic solidity, mountain-city character |
+| `lab_report_blue` | Scenario | Quarterly reports, project reviews, formal briefings | Dark Blue `#2f5597` + Medium Blue `#3f629f` | Restrained, data-driven, minimal decoration |
 ---
 
 ## Template Categories
@@ -76,6 +77,7 @@ Designed for **specific use cases**, with content structures tailored to scenari
 | `psychology_attachment` | Psychotherapy theme, warm and professional color palette |
 | `medical_university` | Hospital / medical university template, suitable for medical reports |
 | `重庆大学` | Chongqing University template, blending mountain-city layered imagery with modern academic style |
+| `lab_report_blue` | Lab report blue-white template, restrained and professional for formal quarterly reviews and technical briefings |
 
 ### 4. Government & Enterprise Templates
 

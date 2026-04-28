@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="topAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f5597"/>
+      <stop offset="100%" stop-color="#3f629f"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <rect x="0" y="0" width="1280" height="4" fill="url(#topAccent)"/>
+
+  <rect x="0" y="716" width="1280" height="4" fill="#3f629f"/>
+
+  <rect x="60" y="200" width="6" height="320" rx="3" fill="#3f629f"/>
+
+  <text x="100" y="310" font-size="80" font-weight="bold" fill="#3f629f" fill-opacity="0.15" font-family="Microsoft YaHei, SimHei, sans-serif">{{CHAPTER_NUM}}</text>
+
+  <text x="100" y="380" font-size="44" font-weight="bold" fill="#2f5597" font-family="Microsoft YaHei, SimHei, sans-serif">{{CHAPTER_TITLE}}</text>
+
+  <text x="100" y="430" font-size="24" fill="#666666" font-family="Microsoft YaHei, SimHei, sans-serif">{{CHAPTER_DESC}}</text>
+
+  <rect x="100" y="460" width="200" height="2" fill="#d6e4f0"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <rect x="0" y="0" width="1280" height="4" fill="#3f629f"/>
+
+  <g id="header">
+    <text x="68" y="60" font-size="36" font-weight="bold" fill="#2f5597" font-family="Microsoft YaHei, SimHei, sans-serif">目录</text>
+  </g>
+
+  <rect x="68" y="76" width="1144" height="2" fill="#3f629f"/>
+
+  <g id="toc-items">
+    <g id="toc-item-1">
+      <text x="68" y="140" font-size="24" font-weight="bold" fill="#3f629f" font-family="Microsoft YaHei, SimHei, sans-serif">01</text>
+      <text x="110" y="140" font-size="24" fill="#333333" font-family="Microsoft YaHei, SimHei, sans-serif">{{TOC_ITEM_1_TITLE}}</text>
+      <text x="110" y="168" font-size="18" fill="#666666" font-family="Microsoft YaHei, SimHei, sans-serif">{{TOC_ITEM_1_DESC}}</text>
+    </g>
+
+    <g id="toc-item-2">
+      <text x="68" y="220" font-size="24" font-weight="bold" fill="#3f629f" font-family="Microsoft YaHei, SimHei, sans-serif">02</text>
+      <text x="110" y="220" font-size="24" fill="#333333" font-family="Microsoft YaHei, SimHei, sans-serif">{{TOC_ITEM_2_TITLE}}</text>
+      <text x="110" y="248" font-size="18" fill="#666666" font-family="Microsoft YaHei, SimHei, sans-serif">{{TOC_ITEM_2_DESC}}</text>
+    </g>
+
+    <g id="toc-item-3">
+      <text x="68" y="300" font-size="24" font-weight="bold" fill="#3f629f" font-family="Microsoft YaHei, SimHei, sans-serif">03</text>
+      <text x="110" y="300" font-size="24" fill="#333333" font-family="Microsoft YaHei, SimHei, sans-serif">{{TOC_ITEM_3_TITLE}}</text>
+      <text x="110" y="328" font-size="18" fill="#666666" font-family="Microsoft YaHei, SimHei, sans-serif">{{TOC_ITEM_3_DESC}}</text>
+    </g>
+
+    <g id="toc-item-4">
+      <text x="68" y="380" font-size="24" font-weight="bold" fill="#3f629f" font-family="Microsoft YaHei, SimHei, sans-serif">04</text>
+      <text x="110" y="380" font-size="24" fill="#333333" font-family="Microsoft YaHei, SimHei, sans-serif">{{TOC_ITEM_4_TITLE}}</text>
+      <text x="110" y="408" font-size="18" fill="#666666" font-family="Microsoft YaHei, SimHei, sans-serif">{{TOC_ITEM_4_DESC}}</text>
+    </g>
+
+    <g id="toc-item-5">
+      <text x="68" y="460" font-size="24" font-weight="bold" fill="#3f629f" font-family="Microsoft YaHei, SimHei, sans-serif">05</text>
+      <text x="110" y="460" font-size="24" fill="#333333" font-family="Microsoft YaHei, SimHei, sans-serif">{{TOC_ITEM_5_TITLE}}</text>
+      <text x="110" y="488" font-size="18" fill="#666666" font-family="Microsoft YaHei, SimHei, sans-serif">{{TOC_ITEM_5_DESC}}</text>
+    </g>
+  </g>
+
+  <rect x="0" y="716" width="1280" height="4" fill="#3f629f"/>
+</svg>
